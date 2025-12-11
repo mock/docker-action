@@ -2,9 +2,10 @@ name: 'Simple param action'
 description: 'Prints the argument and stores it in the file'
 
 inputs:
-  description: 'First argument value'
-  required: true
-  default: 'Mark'
+  name:
+    description: 'First argument value'
+    required: true
+    default: 'Mark'
 
 outputs:
   processed-name:
